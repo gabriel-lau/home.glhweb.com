@@ -1,0 +1,42 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+/* 
+======================= THEMES =======================
+COLOURS
+Primary
+Base Black: #262626
+Base Blue: #18A0FB
+Base White: #EFEFEF
+
+Page Background
+Black: #C4C4C4
+White/Gray: #E5E5E5
+
+Container Backgrounds
+Darker Grey: #404040
+Lighter Grey: #666666
+
+Elements/Vectors
+Grey: #C4C4C4
+
+FONTS 
+Main/Title: Poppins
+Headers: Oswald
+Text: Open Sans
+
+IMAGES
+Icons from Bootstraps
+
+*/
