@@ -40,3 +40,49 @@ IMAGES
 Icons from Bootstraps
 
 */
+
+/* POPPINS */
+
+@font-face {
+  font-family: 'Poppins';
+  src: local('Poppins'), url(./fonts/Poppins/Poppins-Regular.ttf) format('truetype');
+}
+
+@font-face {
+  font-family: 'Poppins';
+  font-weight: bold;
+  src: local('Poppins'), url(./fonts/Poppins/Poppins-Bold.ttf) format('truetype');
+}
+
+@font-face {
+  font-family: 'Poppins';
+  font-weight: bolder;
+  src: local('Poppins'), url(./fonts/Poppins/Poppins-ExtraBold.ttf) format('truetype');
+}
+
+@font-face {
+  font-family: 'Poppins';
+  font-style: italic;
+  src: local('Poppins'), url(./fonts/Poppins/Poppins-Italic.ttf) format('truetype');
+}
+
+@font-face {
+  font-family: 'Poppins';
+  font-weight: bold;
+  font-style: italic;
+  src: local('Poppins'), url(./fonts/Poppins/Poppins-BoldItalic.ttf) format('truetype');
+}
+
+@font-face {
+  font-family: 'Poppins';
+  font-weight: bolder;
+  font-style: italic;
+  src: local('Poppins'), url(./fonts/Poppins/Poppins-ExtraBoldItalic.ttf) format('truetype');
+}
+
+/* OSWALD */
+
+@font-face {
+  font-family: 'Oswald';
+  src: local('Oswald'), url(./fonts/Oswald/Oswald-VariableFont_wght.ttf) format('truetype');
+}

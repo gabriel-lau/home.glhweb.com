@@ -5,9 +5,9 @@ import { Container } from 'react-bootstrap';
 function Header() {
     return (
         <div className='Header'>
-            <Navbar bg='dark' variant='dark'>
-                <Container >
-                    <Navbar.Brand href="#home">
+            <Navbar className='Header-navbar' variant='dark'>
+                <Container className='Header-container'>
+                    <Navbar.Brand className='Header-navbrand' href="#home">
                         glhweb.com
                     </Navbar.Brand>
                 </Container>
