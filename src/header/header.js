@@ -5,7 +5,7 @@ import { Container } from 'react-bootstrap';
 function Header() {
     return (
         <div className='Header'>
-            <Navbar className='Header-navbar' variant='dark'>
+            <Navbar className='Header-navbar' variant='dark' fixed="top" >
                 <Container className='Header-container'>
                     <Navbar.Brand className='Header-navbrand' href="#home">
                         glhweb.com
