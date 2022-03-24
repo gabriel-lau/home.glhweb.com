@@ -3,9 +3,9 @@ import './body1.css';
 function Body1() {
     return (
         <div className='Body1'>
-            <a>
+            <p>
                 Body1 Test
-            </a>
+            </p>
         </div>
     );
 }
