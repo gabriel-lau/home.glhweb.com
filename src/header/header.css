@@ -3,6 +3,9 @@
     font-weight: bold;
     font-size: 20px;
     text-align: center;
+}
+
+#Header-container { /* USED TO OVERRIDE BOOTSTRAP STYLING */
     justify-content: center;
 }
 

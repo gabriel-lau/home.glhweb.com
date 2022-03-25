@@ -6,9 +6,9 @@ function Header() {
     return (
         <div className='Header'>
             <Navbar className='Header-navbar' variant='dark' fixed="top" >
-                <Container className='Header-container'>
+                <Container className='Header-container' id='Header-container'>
                     <Navbar.Brand className='Header-navbrand' href="#home">
-                        glhweb.com
+                        portfolio.glhweb.com
                     </Navbar.Brand>
                 </Container>
             </Navbar>
