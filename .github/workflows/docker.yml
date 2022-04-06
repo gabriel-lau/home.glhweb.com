@@ -25,8 +25,8 @@ jobs:
       id: buildx
       uses: docker/setup-buildx-action@v1
 
-    - name: Build docker image
-      run: docker build ../../Dockerfile
+#    - name: Build docker image
+#      run: docker build ../../Dockerfile
 
     - name: Build the Docker image # push The image to the docker hub
       run: docker build . --file Dockerfile --tag ${{ secrets.DOCKER_HUB_USERNAME }}/portfolio.glhweb.com-frontend:latest
