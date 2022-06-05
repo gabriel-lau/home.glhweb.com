@@ -9,6 +9,7 @@ RUN ls -al
 
 COPY ["package.json", "package-lock.json*", "./"]
 
+RUN npm install --production
 RUN npm run build
 RUN npm install -g serve
 #RUN serve -s build
