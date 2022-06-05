@@ -14,7 +14,7 @@ test('renders Header', () => {
 /* BODY1 TEST */
 test('renders learn react link', () => {
   render(<App />);
-  const linkElement = screen.getByText(/learn rate/i);
+  const linkElement = screen.getByText(/learn react/i);
   expect(linkElement).toBeInTheDocument();
 });
 
