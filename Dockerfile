@@ -11,8 +11,8 @@ COPY ["package.json", "package-lock.json*", "./"]
 
 RUN npm run build
 RUN npm install -g serve
-RUN serve -s build
+#RUN serve -s build
 
 COPY . .
 
-CMD [ "npm", "start" ]
+CMD [ "serve", "-s", "build" ]
