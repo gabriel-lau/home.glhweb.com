@@ -8,7 +8,7 @@ function App() {
       <div className='App-body'>
       <img src={logo} className="App-logo" alt="logo" />
         <p>
-          Edit <code>src/App.js</code> and save to reload.
+          This site is a <code>WORK IN PROGRESS</code> 
         </p>
         <a
           className="App-link"
@@ -16,7 +16,7 @@ function App() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          Learn React
+          Made with React
         </a>
       </div>
       <Body1 />
