@@ -7,14 +7,14 @@ import Body1 from './body1/body1';
 
 test('renders Header', () => {
   render(<Header />);
-  const linkElement = screen.getByText(/glhweb.com/i);
+  const linkElement = screen.getByText(/portfolio.glhweb.com/i);
   expect(linkElement).toBeInTheDocument();
 });
 
 /* BODY1 TEST */
 test('renders learn react link', () => {
   render(<App />);
-  const linkElement = screen.getByText(/learn react/i);
+  const linkElement = screen.getByText(/WORK IN PROGRESS/i);
   expect(linkElement).toBeInTheDocument();
 });
 
