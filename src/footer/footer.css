@@ -1,0 +1,17 @@
+.Footer-container {
+    font-family: Poppins;
+    font-size: 14px;
+    text-align: left;
+}
+
+#Footer-container { /* USED TO OVERRIDE BOOTSTRAP STYLING */
+    justify-content: right;
+}
+
+.Footer-navbar {
+    background-color: #161616;
+}
+
+.Footer-navtext {
+    margin: 0%;
+}
