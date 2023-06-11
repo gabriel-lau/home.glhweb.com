@@ -1,4 +1,37 @@
 .Body1 {
-    margin-top: 100px;
-    padding-top: 100px;
+    background-image: url(../images/DSC02528.JPG);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    backdrop-filter: blur(4px); /* filter: blur(4px) Maybe use svg instead */
+
+    min-height: 100vh;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: #161616;
+}
+
+.Body1-filter {
+    background-color: #161616;
+    opacity: 0.5;
+    min-height: 100vh;
+}
+
+.Body1-main {
+    background-color: #404040;
+    min-height: 100vh;
+    padding: 0px;
+    margin: 0px;
+    color: #161616;
+}
+
+.Body1-maincontent {
+    background-color: #404040;
+    max-width: none;
+}
+
+.Body1-maincontentheader {
+    background-color: #404040;
 }
