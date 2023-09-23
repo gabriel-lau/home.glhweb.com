@@ -9,7 +9,7 @@ function Header() {
             <Navbar className='Header-navbar' variant='dark' fixed="top" >
                 <Container className='Header-container' id='Header-container'>
                     <Navbar.Brand className='Header-navbrand' href="#home">
-                        portfolio.glhweb.com
+                        DevOps Example
                     </Navbar.Brand>
                 </Container>
             </Navbar>
