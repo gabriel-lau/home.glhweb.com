@@ -15,3 +15,4 @@ EXPOSE 3000
 ENV NODE_ENV=production
 CMD [ "node", "build" ]
 
+# docker build -t home.glhweb.com:v1 .

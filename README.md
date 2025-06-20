@@ -39,18 +39,18 @@ You can preview the production build with `npm run preview`.
 
 ## TODO
 ### Implement CI/CD pipeline
-[] Finish dockerfile
-[] Add GitHub Actions workflow
-[] Add tests
-[] Add linting and formatting
-[] Add code coverage
+- [ ] Finish dockerfile
+- [ ] Add GitHub Actions workflow
+- [ ] Add tests
+- [ ] Add linting and formatting
+- [ ] Add code coverage
 
 ### Deployment
-[] Build deployment scripts
-[] Add deployment scripts for different environments (staging, production)
-[] Add monitoring and logging
+- [ ] Build deployment scripts
+- [ ] Add deployment scripts for different environments (staging, production)
+- [ ] Add monitoring and logging
 
 ### Infrastructure
-[] Build Kubernetes cluster
-[] Add Terraform scripts for infrastructure as code
+- [ ] Build Kubernetes cluster
+- [ ] Add Terraform scripts for infrastructure as code
 
