@@ -3,6 +3,7 @@
 	import { P } from 'flowbite-svelte';
 	import { Button } from 'flowbite-svelte';
 	import { DarkMode } from 'flowbite-svelte';
+	import '../app.css';
 </script>
 
 <Navbar>
