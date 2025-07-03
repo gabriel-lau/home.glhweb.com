@@ -1,0 +1,12 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: home-glhweb-com-service
+spec:
+  selector:
+    app: home.glhweb.com
+  ports:
+    - protocol: TCP
+      port: 3000 # External port
+      targetPort: 3000 # Internal container port
+  type: LoadBalancer # Creates a cloud load balancer (for cloud K8s) or NodePort/ClusterIP
